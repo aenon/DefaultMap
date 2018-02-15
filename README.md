@@ -1,5 +1,5 @@
 # defaultObj
-`defaultObj` - JavaScript implementation of Python `collections.defaultdict`
+`defaultObj` - JavaScript implementation of Python [`collections.defaultdict`](https://docs.python.org/3/library/collections.html#collections.defaultdict)
 ## Implementation
 ```javascript
 const defaultObj = (defaultValue = undefined) => {
