@@ -1,4 +1,5 @@
-# defaultObj - JavaScript implementation of Python collections.defaultdict
+# defaultObj
+defaultObj - JavaScript implementation of Python collections.defaultdict
 ## Implementation
 ```javascript
 const defaultObj = (defaultValue = undefined) => {
