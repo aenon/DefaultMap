@@ -1,15 +1,15 @@
-const defaultObj = (defaultValue = undefined) => {
-    const defaultObj = {}
+const DefaultMap = (defaultValue = undefined) => {
+    const map = new Map()
     const set = (key, value) => {
-        defaultObj[key] = value
+        map.set(key, value)
     }
     const get = key => {
-        if (key in defaultObj) {
-            return defaultObj[key]
+        if (map.get('a')) {
+            return map.get('a')
         }
         return defaultValue
     }
     return {set, get}
 }
 
-export default defaultObj
+export default DefaultMap
